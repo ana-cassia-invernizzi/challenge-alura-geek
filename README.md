@@ -3,6 +3,7 @@
 <h2>Sobre</h2>
 <p>Projeto feito durante o programa ONE da Alura.</p>
 <p>Esse desafio foi feito para praticar o back-end de um projeto utilizando o json-server.</p>
+<p>O server foi feito em outro repositório: <a href="https://github.com/ana-cassia-invernizzi/AluraGeekServer">link</a></p>
 
 ## Tecnologias
 <div>

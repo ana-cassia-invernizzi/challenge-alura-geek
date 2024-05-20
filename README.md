@@ -15,5 +15,5 @@
 
 
 <h2>Deploy do projeto</h2>
-<img src="https://challenge-alura-geek-nu.vercel.app/">
+<img src="assets/Captura de tela de 2024-05-20 14-47-39.png">
 <a href="https://challenge-alura-geek-nu.vercel.app/">Alura Geek</a>

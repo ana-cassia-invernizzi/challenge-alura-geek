@@ -6,25 +6,27 @@ async function listaProdutos() {
 }
 
 async function criaProduto(nome, preco, imagem) {
-  const conexao = await fetch("https://alura-geek-server-inky.vercel.app/produtos", {
-    method: "POST",
-    headers: {
+  try {
+    const conexao = await fetch("https://alura-geek-server-inky.vercel.app/produtos", {
+      method: "POST",
+      headers: {
       "Content-type": "application/json"
     },
-    body: JSON.stringify({
+      body: JSON.stringify({
       nome: nome,
       preco: preco,
       imagem: imagem
     })
   });
 
-  if (!conexao.ok) {
-    throw new Error("Não foi possível enviar o produto")
-  }
-
   const conexaoConvertida = await conexao.json();
 
   return conexaoConvertida;
+  } catch (erro) {
+    console.error("Não foi possível criar o produto", erro);
+    throw erro;
+  }
+
 }
 
 async function deletarProduto(id) {

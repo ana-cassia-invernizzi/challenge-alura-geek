@@ -12,11 +12,11 @@ async function criarProduto(evento) {
   try {
     await conectaApi.criaProduto(nome, preco, imagem);
 
-    window.location.reload(true);
-  } catch (e) {
-    alert(e);
+  } catch (erro) {
+    console.error("Não foi possível criar o produto", erro);
   }
 
+  window.location.reload(true);
 }
 
 formulario.addEventListener("submit", evento => criarProduto(evento));

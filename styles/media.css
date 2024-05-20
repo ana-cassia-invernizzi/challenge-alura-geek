@@ -1,0 +1,36 @@
+@media (max-width: 560px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formulario {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .formulario input {
+    min-width: 350px;
+  }
+
+  .botoes {
+    display: flex;
+    justify-content: center;
+  }
+
+  .botoes input {
+    min-width: 165px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+  }
+
+  footer {
+    text-align: center;
+  }
+}

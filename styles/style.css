@@ -1,0 +1,20 @@
+:root {
+  --cor-header-footer: #5300C8;
+  --cor-card-fill: #5D04D9;
+  --cor-background-text: #fff;
+  --cor-border: #000;
+  --cor-buttom-border: #03318C;
+  --font-2p: "Press Start 2P";
+  --font-ibm: "IBM Plex Mono";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  overflow-x: hidden;
+}

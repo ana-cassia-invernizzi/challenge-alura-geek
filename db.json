@@ -1,0 +1,76 @@
+{
+  "produtos": [
+    {
+      "id": "aee1",
+      "nome": "Game Boy",
+      "preco": "800",
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Game-Boy-FL.jpg/1200px-Game-Boy-FL.jpg"
+    },
+    {
+      "id": "6e9f",
+      "nome": "Game Boy Color",
+      "preco": "500",
+      "imagem": "https://i5.walmartimages.com/seo/Nintendo-Gameboy-Game-Boy-Color-Console-Grape_816cd5ba-3fad-4d7e-bbd5-d9c04d867029.0397f849c248284db5a8a0d79dd7d6df.jpeg"
+    },
+    {
+      "id": "faed",
+      "nome": "Game Boy Advance",
+      "preco": "700",
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Nintendo-Game-Boy-Advance-Purple-FL.jpg"
+    },
+    {
+      "id": "9f36",
+      "nome": "Game Boy Advance SP",
+      "preco": "900",
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Gameboy-Advance-SP-Mk2.jpg/640px-Gameboy-Advance-SP-Mk2.jpg"
+    },
+    {
+      "id": "f1f2",
+      "nome": "Nintendo DS ",
+      "preco": "600",
+      "imagem": "https://i5.walmartimages.com/seo/Nintendo-DS-Handheld-game-console-silver_46971ef7-3fb0-49ce-971e-bf9fc6f588d8.8e0be90960f2025ce73092cd25b21ff1.jpeg"
+    },
+    {
+      "id": "eb17",
+      "nome": "Nintendo DS Lite",
+      "preco": "400",
+      "imagem": "https://i5.walmartimages.com/seo/Authentic-Nintendo-DS-Lite-Console-Metallic-Rose-with-Stylus-and-Charger-100-OEM_8e105600-0110-4860-825b-37a338142342.385a84220d908831352617155dc39228.jpeg"
+    },
+    {
+      "id": "1e55",
+      "nome": "Nintendo DSi",
+      "preco": "300",
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nintendo-DSi-Bl-Open.jpg"
+    },
+    {
+      "id": "29d3",
+      "nome": "Nintendo DSi XL",
+      "preco": "550",
+      "imagem": "https://m.media-amazon.com/images/I/71gboSA6C4L._SL1500_.jpg"
+    },
+    {
+      "id": "2ebc",
+      "nome": "Nintendo 3ds",
+      "preco": "500",
+      "imagem": "https://cdn.awsli.com.br/600x1000/2453/2453144/produto/163591347/console-nintendo-3ds-vermelho-seminovo-nintendo-4599637e.jpg"
+    },
+    {
+      "id": "dd97",
+      "nome": "Nintendo 3ds XL",
+      "preco": "900",
+      "imagem": "https://cdn.awsli.com.br/800x800/1258/1258259/produto/65202572/23004a3072.jpg"
+    },
+    {
+      "id": "700d",
+      "nome": "New Nintendo 3ds",
+      "preco": "1100",
+      "imagem": "https://m.media-amazon.com/images/I/71CsJPn1arL.jpg"
+    },
+    {
+      "id": "1f85",
+      "nome": "New Nintendo 3ds XL",
+      "preco": "1500",
+      "imagem": "https://http2.mlstatic.com/D_Q_NP_864257-MLA32731490288_112019-O.webp"
+    }
+  ]
+}

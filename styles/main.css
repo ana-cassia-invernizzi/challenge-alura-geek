@@ -1,0 +1,134 @@
+main {
+  display: flex;
+  gap: 4.375rem;
+  padding: 3.75rem 2.5rem;
+  background-color: var(--cor-background-text);
+}
+
+section h1 {
+  text-align: center;
+  font-family: var(--font-2p);
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.meus-produtos {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2.5rem;
+}
+
+.meus-produtos p {
+  font-family: var(--font-ibm);
+  font-size: 15px;
+}
+
+.cards {
+  max-height: 971px;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 4.875rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px;
+  box-shadow: -8px 8px 2px 0px rgba(0, 0, 0, 0.2);
+  overflow: scroll;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+  background-color: var(--cor-card-fill);
+  border: 3px solid var(--cor-border);
+  border-radius: 10px;
+  padding: 10px;
+  color: var(--cor-background-text);
+  box-shadow: -4px 4px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.imagem img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border: 3px solid var(--cor-border);
+  border-radius: 5px;
+}
+
+.price {
+  display: flex;
+  gap: 10px;
+}
+
+.price p {
+  font-size: 1rem;
+  font-weight: bold;
+  min-width: 8.875rem;
+}
+
+.price button {
+  background: none;
+  border: none;
+}
+
+.price img {
+  cursor: pointer;
+}
+
+.adicionar-produtos {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2.5rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.texto {
+  min-width: 24.5rem;
+  min-height: 3.625rem;
+  border: 3px solid var(--cor-buttom-border);
+  border-radius: 1.875rem;
+  color: var(--cor-buttom-border);
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: var(--font-ibm);
+  padding: 10px;
+  outline: none;
+}
+
+.botoes {
+  display: flex;
+  gap: 13px;
+}
+
+.botoes input {
+  cursor: pointer;
+  min-width: 11.75rem;
+  min-height: 3.438rem;
+}
+
+.btn-guardar {
+  border-radius: 15px;
+  border: none;
+  background-color: var(--cor-buttom-border);
+  color: var(--cor-background-text);
+  font-family: var(--font-ibm);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.btn-limpar {
+  border: 3px solid var(--cor-buttom-border);
+  border-radius: 15px;
+  background-color: var(--cor-background-text);
+  color: var(--cor-buttom-border);
+  font-family: var(--font-ibm);
+  font-size: 1.25rem;
+  font-weight: 500;
+}

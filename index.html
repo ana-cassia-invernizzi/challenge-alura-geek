@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/controle-de-video-game.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap"
+    rel="stylesheet">
+
+  <title>Alura Geek</title>
+
+</head>
+
+<body>
+
+  <header>
+    <img src="assets/logo-alura-geek.svg" alt="Logo da Alura Geek com três corações ao lado esquerdo">
+  </header>
+
+  <main>
+
+    <section class="meus-produtos">
+      <h1>MEUS PRODUTOS:</h1>
+      <div class="cards" data-lista></div>
+    </section>
+
+    <section class="adicionar-produtos">
+      <h1>ADICIONAR PRODUTO:</h1>
+      <form class="formulario" data-formulario>
+        <input class="texto" placeholder="nome..." data-nome>
+        <input class="texto" placeholder="valor..." data-preco>
+        <input class="texto" placeholder="imagem..." data-imagem>
+        <div class="botoes">
+          <input class="btn-guardar" type="submit" value="Guardar" />
+          <input class="btn-limpar" type="button" value="Limpar" data-limpar />
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <img src="assets/logo-alura-geek.svg" alt="Logo da Alura Geek com três corações ao lado esquerdo">
+    <p>DESENVOLVIDO POR ANA INVERNIZZI</p>
+    <span>
+      <p>ALURA LATAM - 2024</p>
+    </span>
+  </footer>
+
+  <script src="js/mostrarProdutos.js" type="module"></script>
+  <script src="js/criarProduto.js" type="module"></script>
+  <script src="js/limparFormulario.js" type="module"></script>
+  <script src="js/deletarProduto.js" type="module"></script>
+
+</body>
+
+</html>
